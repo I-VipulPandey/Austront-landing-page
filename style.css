@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'gilroy';
+    overflow: hidden;
+
+
+}
+
+#navbar {
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    /* background-color: royalblue; */
+    display: flex;
+
+}
+
+#navpart1 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    height: 40px;
+    width: 80px;
+    /* background-color: red; */
+
+}
+
+#navpart1>h1 {
+
+    font-size: 40px;
+}
+
+#last {
+    color: rgb(212, 212, 14);
+}
+
+#navpart2 {
+
+
+    position: absolute;
+    left: 29%;
+    top: 50%;
+    height: 40px;
+    width: 500px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#navpart2>h3 {
+    font-weight: 500;
+    color: #9097A8;
+
+}
+
+#navpart3 {
+
+    position: absolute;
+    top: 18%;
+    left: 65%;
+    margin: 30px 200px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+#login,
+#signup {
+
+    font-family: 'gilroy';
+    padding: 5px;
+    font-size: 16px;
+    width: 70px;
+    border: none;
+    text-align: center;
+    background: none;
+
+
+
+}
+
+#signup {
+    margin: 0 20px;
+
+    border: solid black 0.5px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+#middle {
+
+    position: absolute;
+    top: 90px;
+    left: -2%;
+    height: 383px;
+    width: 100%;
+
+}
+
+#middle>h1 {
+
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 60px;
+}
+
+#middle>h2::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #9097A8;
+    left: -20%;
+    top: 50%;
+    position: absolute;
+}
+
+#middle>h2 {
+
+    position: absolute;
+    top: 58%;
+    left: 12%;
+    font-size: 20px;
+    color: rgba(245, 104, 104, 0.831);
+    font-weight: 700;
+}
+
+#line {
+    position: absolute;
+    top: 61%;
+    left: 10%;
+}
+
+#middle>h3 {
+
+    position: absolute;
+    top: 67%;
+    left: 10%;
+    font-size: 20px;
+    font-weight: 300;
+    color: #9097A8;
+    font: bolder;
+}
+
+#contact {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    border: none;
+    font-family: 'gilroy';
+    background: none;
+    background-color: royalblue;
+    color: white;
+    font-size: 15px;
+    padding: 10px 23px;
+    border-radius: 10px;
+}
+
+
+#astrobg{
+    position: absolute;
+    left: 55%;
+    top: 13%;
+    height: 28vw;
+    width: 30vw;
+    background-image: linear-gradient(to bottom right,violet, blue );
+
+    border-radius: 20vw 0vw 0vw 1vw;
+}
+#Astronaut {
+
+    position: absolute;
+    top: -50%;
+    right: 0%;
+    width: 57%;
+    height: auto;
+    z-index: 99999;
+
+}
+
+#stars {
+    position: absolute;
+    top: -15%;
+    right: 14%;
+    width: 35%;
+    height: auto;
+}
+
+
+
+#semicircle {
+    position: absolute;
+    top: 35%;
+    right: 6%;
+    transform: translate(-50%, -50%) rotate(-150deg);
+    height: 35px;
+    width: 70px;
+    border-radius: 150px 150px 0 0;
+    background-color: violet;
+}
+
+#bottombar {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    bottom: 0;
+    /* background-color: royalblue;  */
+
+}
+
+#img1,
+#img2,
+#img3 {
+
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#img1 {
+
+    top: 20%;
+    left: 45%;
+    background-color: cyan;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+
+#img2 {
+    top: 20%;
+    left: 59%;
+    background-color: skyblue;
+    object-fit: cover;
+    object-position: center;
+}
+
+#img3 {
+    top: 20%;
+    left: 72%;
+    background-color: yellowgreen;
+    object-fit: cover;
+    object-position: center;
+}
+
+#product {
+    position: absolute;
+    left: 10%;
+    width: 110px;
+    height: auto;
+    transform: rotate(-55deg);
+
+}
+
+#build {
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    font-size: 25px;
+    padding-bottom: 15px;
+    border-bottom: solid 1.5px #9097A8;
+}
+
+#marketting {
+    position: relative;
+
+    width: 35px;
+    height: 35px;
+
+
+}
+
+#marketing {
+    position: absolute;
+    top: 51%;
+    left: 45%;
+    font-size: 12px;
+    font-weight: 300;
+    color: #9097A8;
+}
+
+#advert {
+    position: relative;
+
+    width: 35px;
+    height: 35px;
+}
+
+#Advertising {
+    position: absolute;
+    top: 51%;
+    left: 59%;
+    height: 35px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #9097A8;
+}
+
+#brandid {
+    position: relative;
+    width: 35px;
+    height: 35px;
+}
+
+#identity {
+    position: absolute;
+    top: 51%;
+    left: 72%;
+    font-size: 12px;
+    font-weight: 300;
+    color: #9097A8;
+    font: bolder;
+    align-items: center;
+}
+
+#bottombar>h4::after {
+    content: "";
+    width: 1px;
+    height: 50px;
+    background: #9097A8;
+    left: 120%;
+    bottom: 10%;
+    position: absolute;
+}
