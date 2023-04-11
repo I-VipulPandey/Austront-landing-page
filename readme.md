@@ -9,7 +9,6 @@ This is a landing page for a brand marketing agency created using HTML and CSS.
 - [Getting Started](#getting-started)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -43,6 +42,3 @@ This landing page was created using the following technologies:
 
 Contributions are welcome! If you have any suggestions or would like to report a bug, please create an issue or pull request.
 
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the LICENSE file for more information.
